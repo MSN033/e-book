@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { UserPlus, Mail, Lock, User, ArrowRight, Loader } from "lucide-react";
 import { motion } from "framer-motion";
 import { useUserStore } from "../stores/useUserStore";
+import Logo from "../components/Logo";
 
 const SignUpPage = () => {
 
@@ -28,6 +29,9 @@ const SignUpPage = () => {
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.8 }}
 			>
+				<div className="flex justify-center mb-6">
+					<Logo size="large" />
+				</div>
 				<h2 className='mt-6 text-center text-3xl font-extrabold text-emerald-400'>Create your account</h2>
 			</motion.div>
 

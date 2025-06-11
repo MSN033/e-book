@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { LogIn, Mail, Lock, ArrowRight, Loader } from "lucide-react";
 import { useUserStore } from "../stores/useUserStore";
+import Logo from "../components/Logo";
 
 const LoginPage = () => {
 	const [email, setEmail] = useState("");
@@ -41,6 +42,9 @@ const LoginPage = () => {
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.8 }}
 			>
+				<div className="flex justify-center mb-6">
+					<Logo size="large" />
+				</div>
 				<h2 className='mt-6 text-center text-3xl font-extrabold text-emerald-400'>LogIn to your account</h2>
 			</motion.div>
 
