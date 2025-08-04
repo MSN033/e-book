@@ -16,7 +16,7 @@ An online platform for browsing, purchasing, and reviewing books. This full-stac
 ## 🛠️ Tech Stack
 
 **Frontend:**  
-- React
+- React.js
 - HTML5 / CSS3 / JavaScript  
 - Tailwind
 
