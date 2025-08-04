@@ -29,6 +29,32 @@ An online platform for browsing, purchasing, and reviewing books. This full-stac
 
 ---
 
+## 🎯 Special Feature – Discount Quiz
+
+To engage users and reward curious readers, this bookstore offers an **Interactive quiz** where customers can earn a **discount coupon** based on their score.
+
+### 🧠 How It Works:
+
+- Customers are invited to take a short quiz.
+- Questions are multiple-choice and curated by the admin.
+- If the user passes they receive a **one-time discount code**.
+- The code can be applied during checkout for a reduced price on their current purchase.
+- Each user can attempt the quiz **only once**.
+
+### 👨‍💼 Admin Capabilities:
+
+- Create, update, or delete quiz questions through the admin dashboard.
+- Set difficulty level.
+
+### 🔐 Rules:
+
+- One attempt per user (until next quiz added by user).
+- Questions are randomized per attempt.
+
+This feature encourages engagement, builds brand loyalty, and offers a fun twist to regular shopping!
+
+
+
 ## 📥 Installation
 
 ```bash
