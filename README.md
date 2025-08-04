@@ -1,4 +1,4 @@
-# 📚 Ecommerce Bookstore
+# 📚 Bookoria - Ecommerce Bookstore
 
 An online platform for browsing, purchasing, and reviewing books. This full-stack web application allows users to explore a wide variety of books, add them to a cart, and securely checkout.
 
