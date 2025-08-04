@@ -33,16 +33,13 @@ An online platform for browsing, purchasing, and reviewing books. This full-stac
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ecommerce-bookstore.git
+git clone https://github.com/MSN033/e-book.git
 
 # Navigate into the project directory
-cd ecommerce-bookstore
+cd e-book
 
 # Install dependencies (for both frontend & backend if needed)
 npm install
-
-# Set up environment variables (e.g., DB_URI, API_KEY, etc.)
-cp .env.example .env
 
 # Run the development server
 npm start
